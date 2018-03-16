@@ -6,12 +6,12 @@ using System.Runtime.InteropServices;
 // набора атрибутов. Измените значения этих атрибутов, чтобы изменить сведения,
 // связанные со сборкой.
 [assembly: AssemblyTitle("Govorun")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Произносит тестовые фразы через заданные промежутки")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Гэррет")]
 [assembly: AssemblyProduct("Govorun")]
 [assembly: AssemblyCopyright("Copyright Garret Ltd ©  2018")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyTrademark("Govorun")]
 [assembly: AssemblyCulture("")]
 
 // Параметр ComVisible со значением FALSE делает типы в сборке невидимыми 

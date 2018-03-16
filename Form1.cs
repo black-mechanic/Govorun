@@ -34,7 +34,7 @@ namespace Govorun
             synth.SetOutputToDefaultAudioDevice();
             string curTimeShort = DateTime.Now.ToShortTimeString();
             
-            resultstring = preambula + speakingstep.ToString() + "Московское время" + (DateTime.Now.Hour.ToString()) +"часов" + (DateTime.Now.Minute.ToString()) + "минут";
+            resultstring = preambula + speakingstep.ToString() + "Время компьютера" + (DateTime.Now.Hour.ToString()) +" часов" + (DateTime.Now.Minute.ToString()) + " минут";
             // Speak a string.
             synth.Speak(resultstring);
         }
